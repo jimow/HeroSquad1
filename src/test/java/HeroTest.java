@@ -41,7 +41,8 @@ public class HeroTest {
     public void clear_emptiesAllAllHerosFromArrayList_0() {
         Hero Hero5 = new Hero("XYX", 23, "VS", "VW");
         Hero.clear();
-        assertEquals(Hero.all().size(), 0);
+        assertEquals(0, Hero.all().size());
+        //assertEquals(expectedvalue, yourvalue)
     }
 
 

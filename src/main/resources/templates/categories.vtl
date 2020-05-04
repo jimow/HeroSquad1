@@ -1,10 +1,10 @@
 
-    <div class="container">
+
         <h1>SQUADS</h1>
         <div class="row">
             #foreach ($squad in $squads)
-                <div class="col-md-4">
-                    <div class="card  mb-4 box-shadow text-center">
+                <div class="col-md-8">
+                    <div class="card  mb-8 box-shadow text-center">
                         <div class="card-body">
                             <h5 class="card-title"> $squad.getName() </h5>
                             <p class="card-text"> $squad.getCause() </p>
@@ -19,6 +19,6 @@
         <div>
             <a class="btn btn-info" style ="max-width:10rem" href="/squads/new">Add New Squad</a>
         </div>
-    </div>
+
 
 
